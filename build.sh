@@ -7,7 +7,7 @@ fi
 
 SYSROOT=$NDK/platforms/android-3/arch-arm
 # Expand the prebuilt/* path into the correct one
-TOOLCHAIN=`echo $NDK/toolchains/arm-linux-androideabi-4.4.3/prebuilt/*-x86`
+TOOLCHAIN=`echo $NDK/toolchains/arm-linux-androideabi-4.4.3/prebuilt/*-x86_64`
 export PATH=$TOOLCHAIN/bin:$PATH
 
 rm -rf build/ffmpeg
